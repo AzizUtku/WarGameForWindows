@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beylik Savaşları", "Beylik Savaşları\Beylik Savaşları.csproj", "{D856943D-C22B-41EA-ACDE-3C02ABB7B8ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D856943D-C22B-41EA-ACDE-3C02ABB7B8ED}.Debug|x86.ActiveCfg = Debug|x86
+		{D856943D-C22B-41EA-ACDE-3C02ABB7B8ED}.Debug|x86.Build.0 = Debug|x86
+		{D856943D-C22B-41EA-ACDE-3C02ABB7B8ED}.Release|x86.ActiveCfg = Release|x86
+		{D856943D-C22B-41EA-ACDE-3C02ABB7B8ED}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

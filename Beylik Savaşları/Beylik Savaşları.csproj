@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D856943D-C22B-41EA-ACDE-3C02ABB7B8ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Beylik_Savaşları</RootNamespace>
+    <AssemblyName>Beylik Savaşları</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>BeylikSavaşları.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Baslangic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baslangic.Designer.cs">
+      <DependentUpon>Baslangic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bilgi.Designer.cs">
+      <DependentUpon>Bilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAydin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAydin.Designer.cs">
+      <DependentUpon>FormAydin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBizans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBizans.Designer.cs">
+      <DependentUpon>FormBizans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCanik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCanik.Designer.cs">
+      <DependentUpon>FormCanik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDulkadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDulkadir.Designer.cs">
+      <DependentUpon>FormDulkadir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEretna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEretna.Designer.cs">
+      <DependentUpon>FormEretna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEsrefcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEsrefcs.Designer.cs">
+      <DependentUpon>FormEsrefcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGermiyan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGermiyan.Designer.cs">
+      <DependentUpon>FormGermiyan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHamit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHamit.Designer.cs">
+      <DependentUpon>FormHamit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKaresi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKaresi.Designer.cs">
+      <DependentUpon>FormKaresi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKolemen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKolemen.Designer.cs">
+      <DependentUpon>FormKolemen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMentese.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMentese.Designer.cs">
+      <DependentUpon>FormMentese.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOsmanli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOsmanli.Designer.cs">
+      <DependentUpon>FormOsmanli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRamazan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRamazan.Designer.cs">
+      <DependentUpon>FormRamazan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSaruhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSaruhan.Designer.cs">
+      <DependentUpon>FormSaruhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTrabzon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrabzon.Designer.cs">
+      <DependentUpon>FormTrabzon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hakkinda.Designer.cs">
+      <DependentUpon>Hakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Harita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Harita.Designer.cs">
+      <DependentUpon>Harita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKaraman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKaraman.Designer.cs">
+      <DependentUpon>FormKaraman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Motor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Yardim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yardim.Designer.cs">
+      <DependentUpon>Yardim.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Baslangic.resx">
+      <DependentUpon>Baslangic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bilgi.resx">
+      <DependentUpon>Bilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAydin.resx">
+      <DependentUpon>FormAydin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBizans.resx">
+      <DependentUpon>FormBizans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCanik.resx">
+      <DependentUpon>FormCanik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDulkadir.resx">
+      <DependentUpon>FormDulkadir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEretna.resx">
+      <DependentUpon>FormEretna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEsrefcs.resx">
+      <DependentUpon>FormEsrefcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGermiyan.resx">
+      <DependentUpon>FormGermiyan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHamit.resx">
+      <DependentUpon>FormHamit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKaresi.resx">
+      <DependentUpon>FormKaresi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKolemen.resx">
+      <DependentUpon>FormKolemen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMentese.resx">
+      <DependentUpon>FormMentese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOsmanli.resx">
+      <DependentUpon>FormOsmanli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRamazan.resx">
+      <DependentUpon>FormRamazan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSaruhan.resx">
+      <DependentUpon>FormSaruhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrabzon.resx">
+      <DependentUpon>FormTrabzon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hakkinda.resx">
+      <DependentUpon>Hakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Harita.resx">
+      <DependentUpon>Harita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKaraman.resx">
+      <DependentUpon>FormKaraman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yardim.resx">
+      <DependentUpon>Yardim.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kervansaray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Altın %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Altın.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atlı Süvari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bilgi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Düşman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\okçu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\okçuuu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oyuncu 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oyuncu 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piyade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saldır.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Savaş.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sipahiler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yeniçeri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Satın Al.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altın3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altın4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ordu Düzeni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battle1600x1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beylikler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BeylikSavaşları.ico" />
+    <None Include="Resources\SanalCash.jpg" />
+    <None Include="Resources\Hakkında.png" />
+    <None Include="Resources\Basla..png" />
+    <None Include="Resources\yardim1.png" />
+    <None Include="Resources\Yardım.png" />
+    <None Include="Resources\1360464896_facebook.png" />
+    <None Include="Resources\loading49.gif" />
+    <None Include="Resources\adssa.png" />
+    <None Include="Resources\battle1600x1200yeni.png" />
+    <None Include="Resources\ddds.png" />
+    <None Include="Resources\diğerouuncu.jpg" />
+    <None Include="Resources\loading11.gif" />
+    <None Include="Resources\loading15.gif" />
+    <None Include="Resources\Savaş %282%29.png" />
+    <None Include="Resources\KapatYazi.png" />
+    <None Include="Resources\9612695574.jpg" />
+    <None Include="Resources\beyliklerguıuncel.png" />
+    <None Include="Resources\Oyuncu 21.png" />
+    <None Include="Resources\Oyuncu 1 %282%29.png" />
+    <None Include="Resources\Oyuncu2.png" />
+    <None Include="Resources\Oyuncu1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
